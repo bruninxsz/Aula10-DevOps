@@ -10,7 +10,7 @@ public class CalcIMCTest {
         CalcIMC calcIMC = new CalcIMC();
         double resultado = calcIMC.calcularIMC(67.00, 1.76);
         // metodo assertEquals compara o resultado que esperamos com o resultado real
-        assertEquals(10.00, resultado, 0.05);
+        assertEquals(21.63, resultado, 0.05);
 
     }
 
