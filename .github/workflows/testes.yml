@@ -36,12 +36,12 @@ jobs:
       # ou seja, baixa o código do projeto
       # para dentro da máquina virtual
       - name: Baixar codigo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # Instala e configura o Java 21
       # utilizando a distribuição Eclipse Temurin
       - name: Configurar Java
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
 
           # Distribuição do Java que será utilizada
